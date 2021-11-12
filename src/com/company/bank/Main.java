@@ -1,9 +1,11 @@
-package com.company;
+package com.company.bank;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(getDurationString(4334, 1290));
+        BankAccount bankAccount = new BankAccount("Ridwan Bolanle Abdulfatah", "0173430210");
+        bankAccount.depositeFunds(80.00);
+        bankAccount.withdrawFunds(12.00);
 
     }
 
